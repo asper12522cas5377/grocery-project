@@ -919,3 +919,352 @@ textarea.form-control
 }
 
 
+/* Responsive Media Queries */
+@media (max-width: 1199px) {
+  .carousel img {
+    height: 75vh;
+    object-fit: cover;
+  }
+
+  .section-title {
+    font-size: 46px;
+  }
+
+  .product-card {
+    width: 240px;
+  }
+}
+
+@media (max-width: 991px) {
+  #nav-1 {
+    margin-top: 0;
+    padding: 8px 12px;
+  }
+
+  .carousel-inner {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .carousel img {
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  .about-section,
+  .contact-section,
+  .blog-section,
+  .service-section,
+  .login-section,
+  .reg-section {
+    padding: 50px 25px;
+  }
+
+  .section-title,
+  .section-title h1 {
+    font-size: 40px;
+    margin-bottom: 35px;
+  }
+
+  .about-content h2,
+  .contact-box h4,
+  .service-content h3,
+  .login-box h2,
+  .reg-box h2 {
+    font-size: 30px;
+  }
+
+  .category-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .item {
+    width: 26%;
+  }
+
+  .item img {
+    max-width: 140px;
+    width: 100%;
+  }
+
+  .product-card {
+    width: 45%;
+    max-width: 330px;
+  }
+
+  .section-container {
+    height: auto;
+    min-height: 350px;
+  }
+
+  .offer-info {
+    width: 65%;
+    padding: 45px 25px;
+  }
+
+  .offer-info .offer-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .footer {
+    padding: 45px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel img {
+    height: 45vh;
+  }
+
+  .about-start,
+  .cont-start {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .about-section,
+  .contact-section,
+  .blog-section,
+  .service-section,
+  .login-section,
+  .reg-section {
+    padding: 40px 15px;
+  }
+
+  .section-title,
+  .section-title h1 {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+
+  .about-content h2,
+  .contact-box h4,
+  .service-content h3,
+  .login-box h2,
+  .reg-box h2,
+  .blog-title {
+    font-size: 26px;
+  }
+
+  .about-content p,
+  .contact-box p,
+  .service-content p,
+  .login-box p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .counter-section {
+    padding: 50px 15px;
+  }
+
+  .counter-box {
+    margin-bottom: 25px;
+  }
+
+  .counter-box h2 {
+    font-size: 38px;
+  }
+
+  .category-list {
+    gap: 22px;
+  }
+
+  .item {
+    width: 42%;
+  }
+
+  .item img {
+    margin-top: 25px;
+    max-width: 120px;
+  }
+
+  .products-section {
+    width: 94%;
+    margin: 30px auto;
+  }
+
+  .products-container {
+    gap: 18px;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .product-image,
+  .product-img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+  }
+
+  .views-btn,
+  .view-btn,
+  .shop-btn {
+    padding: 10px 28px;
+    font-size: 17px;
+    margin-top: 30px;
+  }
+
+  .section-container {
+    min-height: 320px;
+    background-position: right center;
+  }
+
+  .offer-info {
+    width: 100%;
+    padding: 40px 18px;
+    background: rgba(255, 255, 255, 0.82);
+  }
+
+  .offer-info .offer-dis {
+    font-size: 17px;
+  }
+
+  .offer-info .offer-title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .blog-img {
+    height: 210px;
+  }
+
+  .service-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .service-icon img {
+    max-width: 70px;
+  }
+
+  .footer {
+    padding: 40px 18px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .footer-links {
+    padding-left: 0;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .newsletter input,
+  .newsletter button {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .newsletter button {
+    padding: 12px;
+  }
+
+  .login-box,
+  .reg-box {
+    padding: 28px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel img {
+    height: 38vh;
+  }
+
+  .section-title,
+  .section-title h1 {
+    font-size: 28px;
+  }
+
+  .about-content h2,
+  .contact-box h4,
+  .service-content h3,
+  .login-box h2,
+  .reg-box h2,
+  .blog-title {
+    font-size: 24px;
+  }
+
+  .category-list {
+    gap: 15px;
+    padding: 0 12px;
+  }
+
+  .item {
+    width: 46%;
+  }
+
+  .item span {
+    font-size: 14px;
+    word-break: break-word;
+  }
+
+  .product-card {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .product-name,
+  .product-card h3,
+  .product-card h4 {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 22px;
+  }
+
+  .old-price {
+    font-size: 18px;
+  }
+
+  .cart-btn,
+  .btn-send,
+  .btn-login,
+  .btn-create {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .offer-info .offer-title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .social-icons a {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 380px) {
+  .carousel img {
+    height: 32vh;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .item img {
+    max-width: 115px;
+  }
+
+  .offer-info {
+    padding: 32px 14px;
+  }
+}
