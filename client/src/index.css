@@ -227,6 +227,29 @@ textarea.form-control
   color: rgb(5, 155, 5);
 }
 
+.category-list {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.item {
+  flex: 0 1 140px;
+}
+
+.item img {
+  width: 140px;
+  height: 140px;
+  margin-top: 50px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
 
 /* Product Section */
 .products-section
